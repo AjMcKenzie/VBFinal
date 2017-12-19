@@ -106,6 +106,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Level1.resx">
+      <DependentUpon>Level1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LevelSelect.resx">
       <DependentUpon>LevelSelect.vb</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +172,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\num8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\platform.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plains level.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key for plains.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin point.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plains door.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

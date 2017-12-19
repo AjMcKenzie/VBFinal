@@ -63,6 +63,26 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property coin_point() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("coin point", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property key_for_plains() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("key for plains", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property levelChoice() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("levelChoice", resourceCulture)
@@ -156,6 +176,36 @@ Namespace My.Resources
         Friend ReadOnly Property num8() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("num8", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property plains_door() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("plains door", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property plains_level() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("plains level", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property platform() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("platform", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
