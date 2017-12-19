@@ -41,6 +41,9 @@ Partial Class MainMenu
         Me.btnStart.UseVisualStyleBackColor = True
         Me.btnStart.Visible = False
         '
+        'Timer1
+        '
+        '
         'lblLogoName
         '
         Me.lblLogoName.AutoSize = True
@@ -53,7 +56,7 @@ Partial Class MainMenu
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(155, 138)
+        Me.btnExit.Location = New System.Drawing.Point(155, 155)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(90, 35)
         Me.btnExit.TabIndex = 3
@@ -81,7 +84,7 @@ Partial Class MainMenu
         Me.Controls.Add(Me.btnStart)
         Me.Controls.Add(Me.picLogo)
         Me.Name = "MainMenu"
-        Me.Text = "Form1"
+        Me.Text = "Main Menu"
         CType(Me.picLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
