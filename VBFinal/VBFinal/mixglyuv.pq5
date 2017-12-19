@@ -23,18 +23,6 @@ Partial Class LevelSelect
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.btnBackMainMenu = New System.Windows.Forms.Button()
-        Me.PictureBox35 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox34 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox33 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox32 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox31 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox30 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox29 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox28 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox26 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox27 = New System.Windows.Forms.PictureBox()
@@ -50,26 +38,18 @@ Partial Class LevelSelect
         Me.PictureBox16 = New System.Windows.Forms.PictureBox()
         Me.PictureBox15 = New System.Windows.Forms.PictureBox()
         Me.PictureBox14 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox13 = New System.Windows.Forms.PictureBox()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -85,13 +65,17 @@ Partial Class LevelSelect
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -108,129 +92,9 @@ Partial Class LevelSelect
         Me.btnBackMainMenu.Text = "Main Menu"
         Me.btnBackMainMenu.UseVisualStyleBackColor = False
         '
-        'PictureBox35
-        '
-        Me.PictureBox35.Image = Global.VBFinal.My.Resources.Resources.num8
-        Me.PictureBox35.Location = New System.Drawing.Point(494, 254)
-        Me.PictureBox35.Name = "PictureBox35"
-        Me.PictureBox35.Size = New System.Drawing.Size(50, 47)
-        Me.PictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox35.TabIndex = 35
-        Me.PictureBox35.TabStop = False
-        '
-        'PictureBox34
-        '
-        Me.PictureBox34.Image = Global.VBFinal.My.Resources.Resources.num7
-        Me.PictureBox34.Location = New System.Drawing.Point(452, 336)
-        Me.PictureBox34.Name = "PictureBox34"
-        Me.PictureBox34.Size = New System.Drawing.Size(48, 37)
-        Me.PictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox34.TabIndex = 34
-        Me.PictureBox34.TabStop = False
-        '
-        'PictureBox33
-        '
-        Me.PictureBox33.Image = Global.VBFinal.My.Resources.Resources.num6
-        Me.PictureBox33.Location = New System.Drawing.Point(316, 375)
-        Me.PictureBox33.Name = "PictureBox33"
-        Me.PictureBox33.Size = New System.Drawing.Size(47, 40)
-        Me.PictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox33.TabIndex = 33
-        Me.PictureBox33.TabStop = False
-        '
-        'PictureBox32
-        '
-        Me.PictureBox32.Image = Global.VBFinal.My.Resources.Resources.num5
-        Me.PictureBox32.Location = New System.Drawing.Point(172, 417)
-        Me.PictureBox32.Name = "PictureBox32"
-        Me.PictureBox32.Size = New System.Drawing.Size(41, 40)
-        Me.PictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox32.TabIndex = 32
-        Me.PictureBox32.TabStop = False
-        '
-        'PictureBox31
-        '
-        Me.PictureBox31.Image = Global.VBFinal.My.Resources.Resources.num4
-        Me.PictureBox31.Location = New System.Drawing.Point(124, 371)
-        Me.PictureBox31.Name = "PictureBox31"
-        Me.PictureBox31.Size = New System.Drawing.Size(50, 44)
-        Me.PictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox31.TabIndex = 31
-        Me.PictureBox31.TabStop = False
-        '
-        'PictureBox30
-        '
-        Me.PictureBox30.Image = Global.VBFinal.My.Resources.Resources.num3
-        Me.PictureBox30.Location = New System.Drawing.Point(98, 254)
-        Me.PictureBox30.Name = "PictureBox30"
-        Me.PictureBox30.Size = New System.Drawing.Size(41, 33)
-        Me.PictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox30.TabIndex = 30
-        Me.PictureBox30.TabStop = False
-        '
-        'PictureBox29
-        '
-        Me.PictureBox29.Image = Global.VBFinal.My.Resources.Resources.num2
-        Me.PictureBox29.Location = New System.Drawing.Point(86, 152)
-        Me.PictureBox29.Name = "PictureBox29"
-        Me.PictureBox29.Size = New System.Drawing.Size(44, 39)
-        Me.PictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox29.TabIndex = 29
-        Me.PictureBox29.TabStop = False
-        '
-        'PictureBox28
-        '
-        Me.PictureBox28.Image = Global.VBFinal.My.Resources.Resources.num1
-        Me.PictureBox28.Location = New System.Drawing.Point(77, 77)
-        Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(41, 34)
-        Me.PictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox28.TabIndex = 28
-        Me.PictureBox28.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.VBFinal.My.Resources.Resources.treeLevel
-        Me.PictureBox2.Location = New System.Drawing.Point(114, 39)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(41, 54)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 2
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.Image = Global.VBFinal.My.Resources.Resources.treeLevel
-        Me.PictureBox7.Location = New System.Drawing.Point(89, 128)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(41, 54)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 7
-        Me.PictureBox7.TabStop = False
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.VBFinal.My.Resources.Resources.treeLevel
-        Me.PictureBox10.Location = New System.Drawing.Point(42, 62)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(41, 54)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 10
-        Me.PictureBox10.TabStop = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.VBFinal.My.Resources.Resources.treeLevel
-        Me.PictureBox9.Location = New System.Drawing.Point(136, 88)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(41, 54)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 9
-        Me.PictureBox9.TabStop = False
-        '
         'PictureBox26
         '
-        Me.PictureBox26.Image = Global.VBFinal.My.Resources.Resources.volcano
+        Me.PictureBox26.Image = Global.FinalProject.My.Resources.Resources.volcano1
         Me.PictureBox26.Location = New System.Drawing.Point(482, 307)
         Me.PictureBox26.Name = "PictureBox26"
         Me.PictureBox26.Size = New System.Drawing.Size(56, 47)
@@ -378,6 +242,16 @@ Partial Class LevelSelect
         Me.PictureBox14.TabIndex = 14
         Me.PictureBox14.TabStop = False
         '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global.VBFinal.My.Resources.Resources.treeLevel
+        Me.PictureBox9.Location = New System.Drawing.Point(136, 88)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(41, 54)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 9
+        Me.PictureBox9.TabStop = False
+        '
         'PictureBox13
         '
         Me.PictureBox13.Image = Global.VBFinal.My.Resources.Resources.treeLevel
@@ -401,12 +275,22 @@ Partial Class LevelSelect
         'PictureBox11
         '
         Me.PictureBox11.Image = Global.VBFinal.My.Resources.Resources.treeLevel
-        Me.PictureBox11.Location = New System.Drawing.Point(67, 137)
+        Me.PictureBox11.Location = New System.Drawing.Point(67, 128)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(41, 54)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 11
         Me.PictureBox11.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.VBFinal.My.Resources.Resources.treeLevel
+        Me.PictureBox10.Location = New System.Drawing.Point(42, 62)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(41, 54)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 10
+        Me.PictureBox10.TabStop = False
         '
         'PictureBox8
         '
@@ -417,6 +301,16 @@ Partial Class LevelSelect
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 8
         Me.PictureBox8.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.VBFinal.My.Resources.Resources.treeLevel
+        Me.PictureBox7.Location = New System.Drawing.Point(77, 128)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(41, 54)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 7
+        Me.PictureBox7.TabStop = False
         '
         'PictureBox6
         '
@@ -448,9 +342,19 @@ Partial Class LevelSelect
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.FinalProject.My.Resources.Resources.treeLevel1
+        Me.PictureBox2.Location = New System.Drawing.Point(114, 39)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(41, 54)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 2
+        Me.PictureBox2.TabStop = False
+        '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.VBFinal.My.Resources.Resources.levelChoice
+        Me.PictureBox1.Image = Global.FinalProject.My.Resources.Resources.levelChoice
         Me.PictureBox1.Location = New System.Drawing.Point(1, -14)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(595, 512)
@@ -463,14 +367,6 @@ Partial Class LevelSelect
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(593, 495)
-        Me.Controls.Add(Me.PictureBox35)
-        Me.Controls.Add(Me.PictureBox34)
-        Me.Controls.Add(Me.PictureBox33)
-        Me.Controls.Add(Me.PictureBox32)
-        Me.Controls.Add(Me.PictureBox31)
-        Me.Controls.Add(Me.PictureBox30)
-        Me.Controls.Add(Me.PictureBox29)
-        Me.Controls.Add(Me.PictureBox28)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.PictureBox10)
@@ -501,18 +397,6 @@ Partial Class LevelSelect
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "LevelSelect"
         Me.Text = "Form2"
-        CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox32, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox31, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox29, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox28, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox26, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox27, System.ComponentModel.ISupportInitialize).EndInit()
@@ -528,13 +412,17 @@ Partial Class LevelSelect
         CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -567,13 +455,5 @@ Partial Class LevelSelect
     Friend WithEvents PictureBox25 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox26 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox27 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox28 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox29 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox30 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox31 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox32 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox33 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox34 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox35 As System.Windows.Forms.PictureBox
-
+    End Sub
 End Class

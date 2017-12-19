@@ -106,6 +106,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="LevelSelect.resx">
+      <DependentUpon>LevelSelect.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </EmbeddedResource>
@@ -127,6 +130,45 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TurtleGames.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MountainsBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\levelChoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treeLevel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volcano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num8.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
