@@ -26,8 +26,9 @@ Partial Class MainMenu
         Me.btnStart = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.lblLogoName = New System.Windows.Forms.Label()
-        Me.btnExit = New System.Windows.Forms.Button()
+        Me.btnExitM = New System.Windows.Forms.Button()
         Me.picLogo = New System.Windows.Forms.PictureBox()
+        Me.btnShopM = New System.Windows.Forms.Button()
         CType(Me.picLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -54,15 +55,15 @@ Partial Class MainMenu
         Me.lblLogoName.TabIndex = 2
         Me.lblLogoName.Text = "TurtleEntertainments"
         '
-        'btnExit
+        'btnExitM
         '
-        Me.btnExit.Location = New System.Drawing.Point(155, 155)
-        Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(90, 35)
-        Me.btnExit.TabIndex = 3
-        Me.btnExit.Text = "Exit"
-        Me.btnExit.UseVisualStyleBackColor = True
-        Me.btnExit.Visible = False
+        Me.btnExitM.Location = New System.Drawing.Point(155, 182)
+        Me.btnExitM.Name = "btnExitM"
+        Me.btnExitM.Size = New System.Drawing.Size(90, 35)
+        Me.btnExitM.TabIndex = 3
+        Me.btnExitM.Text = "Exit"
+        Me.btnExitM.UseVisualStyleBackColor = True
+        Me.btnExitM.Visible = False
         '
         'picLogo
         '
@@ -74,12 +75,23 @@ Partial Class MainMenu
         Me.picLogo.TabIndex = 1
         Me.picLogo.TabStop = False
         '
+        'btnShopM
+        '
+        Me.btnShopM.Location = New System.Drawing.Point(155, 131)
+        Me.btnShopM.Name = "btnShopM"
+        Me.btnShopM.Size = New System.Drawing.Size(90, 35)
+        Me.btnShopM.TabIndex = 4
+        Me.btnShopM.Text = "Shop"
+        Me.btnShopM.UseVisualStyleBackColor = True
+        Me.btnShopM.Visible = False
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(402, 358)
-        Me.Controls.Add(Me.btnExit)
+        Me.Controls.Add(Me.btnShopM)
+        Me.Controls.Add(Me.btnExitM)
         Me.Controls.Add(Me.lblLogoName)
         Me.Controls.Add(Me.btnStart)
         Me.Controls.Add(Me.picLogo)
@@ -94,7 +106,8 @@ Partial Class MainMenu
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents picLogo As System.Windows.Forms.PictureBox
     Friend WithEvents lblLogoName As System.Windows.Forms.Label
-    Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents btnExitM As System.Windows.Forms.Button
+    Friend WithEvents btnShopM As System.Windows.Forms.Button
 
 
 
