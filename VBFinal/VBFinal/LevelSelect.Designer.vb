@@ -151,7 +151,7 @@ Partial Class LevelSelect
         'PictureBox31
         '
         Me.PictureBox31.Image = Global.VBFinal.My.Resources.Resources.num4
-        Me.PictureBox31.Location = New System.Drawing.Point(124, 371)
+        Me.PictureBox31.Location = New System.Drawing.Point(105, 352)
         Me.PictureBox31.Name = "PictureBox31"
         Me.PictureBox31.Size = New System.Drawing.Size(50, 44)
         Me.PictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -500,7 +500,7 @@ Partial Class LevelSelect
         Me.Controls.Add(Me.btnBackMainMenu)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "LevelSelect"
-        Me.Text = "Form2"
+        Me.Text = "Level Select"
         CType(Me.PictureBox35, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox34, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox33, System.ComponentModel.ISupportInitialize).EndInit()
