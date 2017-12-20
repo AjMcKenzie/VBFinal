@@ -15,16 +15,23 @@
         second = second + 1
         If second >= 2 Then
             btnStart.Visible = True
-            btnExit.Visible = True
+            btnExitM.Visible = True
+            btnShopM.Visible = True
         End If
     End Sub
 
-    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExitM.Click
         Me.Close()
     End Sub
 
     Private Sub btnStart_Click(sender As Object, e As EventArgs) Handles btnStart.Click
         Dim Box = New LevelSelect
+        Box.Show()
+        Me.Visible = False
+    End Sub
+
+    Private Sub btnShopM_Click(sender As Object, e As EventArgs) Handles btnShopM.Click
+        Dim Box = New Shop
         Box.Show()
         Me.Visible = False
     End Sub
