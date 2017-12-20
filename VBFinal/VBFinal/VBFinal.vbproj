@@ -76,6 +76,12 @@
     <Compile Include="Level1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="level2.Designer.vb">
+      <DependentUpon>level2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="level2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Level1.resx">
       <DependentUpon>Level1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="level2.resx">
+      <DependentUpon>level2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LevelSelect.resx">
       <DependentUpon>LevelSelect.vb</DependentUpon>
@@ -196,6 +205,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\plains door.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spike.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
